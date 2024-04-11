@@ -1,0 +1,91 @@
+
+
+
+h1 , h6{
+  color: rgb(255, 255, 255);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+label{
+  color: rgb(255, 255, 255);font-weight: bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  transform: 0,5s;
+}
+
+.container {
+  width: 320px;
+  padding: 11px;
+  background-color: rgb(186, 119, 255)  ;
+  margin: 50px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+  border-radius: 15px;
+  border-color: #FFDA7C;
+  border-color: rgb(186, 119, 255);
+}
+
+.container {
+  width: 300px;
+  padding: 10px;
+  background-color: #FFDA7C;
+  margin: 50px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+  border-radius: 15px;
+}
+
+
+
+body{
+  background-color: rgb(186, 119, 255);
+}
+
+button{
+  border-radius: 22px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+input{
+  border-radius: 22px;
+  background-color: #FFDA7C;
+  color: rgb(186, 119, 255);
+  border-color: rgb(186, 119, 255);
+  border-width: 6px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16;
+}
+
+p{
+  color:rgb(186, 119, 255);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+label{
+  color: rgb(186, 119, 255);
+}
